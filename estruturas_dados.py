@@ -37,3 +37,19 @@ print(dicionario.values())
 print(dicionario.items())
 dicionario.update({"Coimbra": 0}) 
 print(dicionario)
+
+print()
+
+conjuntoN = {1, 2, 0, 5}
+conjuntoZ = set({-3, -2, -1, 0, 1, 2})
+conjuntoN.add(3)
+conjuntoZ.remove(-3)
+print(conjuntoN.union(conjuntoZ))
+print(conjuntoN.intersection(conjuntoZ))
+print(conjuntoN.difference(conjuntoZ))
+print(conjuntoZ.difference(conjuntoN))
+print(conjuntoN.symmetric_difference(conjuntoZ))
+conjuntoN.clear()
+print(conjuntoN)
+
+
