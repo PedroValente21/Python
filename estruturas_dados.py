@@ -27,3 +27,13 @@ print()
 tupla = (1, 2, 3, 4, 5, 4)
 print(tupla.count(4))
 print(tupla.index(4))
+
+print()
+
+dicionario = {"Cruzeiro": 6, "Atlético": 1, "América": 2, "Villa Nova": 5, "Caldense": 7}
+print ("Copas do Brasil do Cruzeiro -", dicionario["Cruzeiro"])
+print(dicionario.keys())
+print(dicionario.values())
+print(dicionario.items())
+dicionario.update({"Coimbra": 0}) 
+print(dicionario)
