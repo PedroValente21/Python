@@ -20,5 +20,10 @@ print(lista)
 
 números = [1, 2, 3, 4, 5]
 quadrados = [x ** 2 for x in números if x % 2 == 0]
-print(quadrados)  # Imprime [4, 16]
-    
+print(quadrados)  
+
+print()
+
+tupla = (1, 2, 3, 4, 5, 4)
+print(tupla.count(4))
+print(tupla.index(4))
