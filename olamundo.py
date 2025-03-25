@@ -1,20 +1,20 @@
 print("Olá, Mundo!")
-
 var1 = 10
 var2 = 20  
 
-# Comentario 
+for i in range(50):
+    if i % 2 == 0:
+        print(i)
+        var1 += 1
+    elif i == 11:
+        print("i é igual a 11")
+    elif i == 15:
+        pass
+    elif i == 17:
+        break
+    else:
+        print("i não tem condicinal pra isso")
+        var2 * 10
 
-if var1 > var2:
-    print("var1 é maior que var2")
-else:
-    print("var2 é maior que var1")
-
-var3 = (var1 + var2) * 2
-
-print(var3)
-
-"""
-Comentario de multiplas linhas
-"""
- 
+print(var2, var1)
+    
