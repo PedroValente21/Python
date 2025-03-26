@@ -1,3 +1,5 @@
+import funcoes
+
 arquivo = open("arquivo.txt", "r")  
 print(arquivo.read())
 arquivo.close()
@@ -8,3 +10,6 @@ arquivo.close()
 
 with open("arquivo.txt", "r") as arquivo: 
     print(arquivo.read())
+
+raiz = funcoes.calcula_raiz_quadrada(9)
+print(raiz)
