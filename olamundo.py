@@ -18,6 +18,6 @@ for i in range(50):
 
 print(var2, var1)
 
-var3 = input("Digite um número: ")
+var3 = int(input("Digite um número: "))
 print("O número digitado foi:", var3)
     
