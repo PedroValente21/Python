@@ -17,4 +17,7 @@ for i in range(50):
         var2 * 10
 
 print(var2, var1)
+
+var3 = input("Digite um número: ")
+print("O número digitado foi:", var3)
     
